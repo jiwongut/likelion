@@ -1,0 +1,44 @@
+<!--get 방식 = 데이터 조회만을 목적으로 할 때
+    post 방식 = 서버에 있는 데이터를 수정/삭제할 때-->
+
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>폼태그 배우기</title>
+    </head>
+    <body>
+        <h2>회원가입</h2>
+        <form action="my-app" method="GET">
+            <div>
+                <label for="userid">ID: </label>
+                <input type="text" id="userid" name="id" placeholder="아이디를 입력하세요.">
+            </div>
+            <div>
+                <label for="pw">PASSWORD:</label>
+                <input type="password" id ="pw" name="password" placeholder="비밀번호를 입력하세요.">
+            </div>
+            <!--placeholder는 가이드 문구, value는 초깃값-->
+        <div>
+            <label for="gender">성별:</label>
+            <select name="gender" id="gender">
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+            </select>
+        </div>
+        <div>
+            <label for="job">직업:</label>
+            <select name="job" id="job">
+                <option value="student">학생</option>
+                <option value="teacher">선생님</option>
+                <option value="etc">기타</option>
+            </select>
+        </div>
+        <div>
+            <label for="introduce">자기소개:</label>
+                <textarea name="introduce" id="introduce" cols="30" rows="10" placeholder="자기소개를 입력하세요."></textarea>
+        </div>
+        <button type="submit">제출하기</button>
+        <button type="reset">다시하기</button>
+        </form>
+    </body>
+</html>
