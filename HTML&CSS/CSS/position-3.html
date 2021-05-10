@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--position
+5.z-index = 지정된 숫자가 클수록 앞 화면에 나온다. static을 제외한 요소에만 적용함.-->
+<html lang="kr">
+    <head>
+        <title>4주차</title>
+        <style>
+            body {background-color: skyblue; margin: 0;}
+            #top{
+                background-color: pink;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                z-index: 2;
+            }
+            #bottom{
+                background-color: lemonchiffon;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="top">
+                앞 입니다.
+            </div>
+            <div id="bottom">
+                뒤 입니다.
+            </div>
+        </div>
+    </body>
+</html>

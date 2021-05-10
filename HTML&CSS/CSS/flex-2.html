@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--#flex item
+    flex-grow = item의 확장 속성, 기본값은 0
+    flex-shrink = item의 축소 속성
+    flex-basis = item의 기본 크기, 기본값은 auto, 단위 필수
+    flex = 위 세가지를 한 번에!-->
+<html>
+    <head>
+        <title>4주차</title>
+        <style>
+            body{margin: 0;}
+            #container{
+                background-color: skyblue;
+                display: flex;
+                flex-direction: row;
+                height: 250px;
+                width: 250px;
+            }
+            .item{
+                border-radius: 4px;
+                background-color: pink;
+                height: 60px;
+                width: 60px;
+            };
+            #one{
+                flex: 1 1 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="one" class="item">1</div>
+            <div id="two" class="item">2</div>
+            <div id="three" class="item">3</div>
+        </div>
+    </body>
+</html>

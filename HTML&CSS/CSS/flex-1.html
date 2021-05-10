@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--#flex container
+    flex-direction = 기본 방향은 row, (<>column)
+        column-reverse는 반대 방향으로(아래쪽에서부터)
+    flex-wrap = 삐져나올 때 자동 줄바꿈
+    flex-flow = wrap과 direction을 한번에 설정한다.-->
+<html>
+    <head>
+        <title>4주차</title>
+        <style>
+            body{margin: 0;}
+            #container{
+                background-color: skyblue;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                display: flex;
+                height: 100px;
+            }
+            .item{
+                border-radius: 4px;
+                background-color: pink;
+                height: 36px;
+                width: 36px;
+            };
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
+    </body>
+</html>

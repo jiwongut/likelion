@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- display = block // inline 
+block = 기본 width를 100으로 갖는다.
+inline = width나 height 설정 없이 값에만 표시된다.
+inline-block = block처럼 표시된다.-->
+<html lang="kr">
+    <head>
+        <title>4주차</title>
+        <style>
+            body {background-color: skyblue;}
+            #block{
+                background-color: pink;
+                width: 200px;
+                height: 100px;
+                margin: 20px;
+                padding: 20px;
+            }
+            #inline{
+                background-color: lemonchiffon;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <p id="block">
+                block
+            </p>
+            <span id="inline">
+                inline
+            </span>
+        </div>
+    </body>
+</html>
