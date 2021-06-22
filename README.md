@@ -14,9 +14,9 @@ classlion 강의
 <details>
     <summary>210428</summary>
     
-  + HTML 
-        + html 123 
-        + form.html  
+  + HTML
+            + html 123 
+            + form.html  
 </details>
 
 <details>
