@@ -1,5 +1,5 @@
-## static & media
-------------
+## static & media  
+
 > # static
 > 개발자가 개발할 때 미리 넣어둔 파일(img, js, css) 
 
