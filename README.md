@@ -5,8 +5,12 @@ likelion session
 
 classlion 강의 
 ------------ 
-+ 210407
-  + index  
+<details>
+    <summary>210407</summary>
+
+  + index
+</details>
+  
 
 + 210428  
     + HTML 
