@@ -5,7 +5,7 @@ likelion session
 
 classlion 강의 
 ------------ 
-+ 1주차  
++ 1주차
  + 웹 기초 - index  
 
 + 2주차  
