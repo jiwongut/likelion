@@ -7,8 +7,8 @@
 
 ## CRUD
 ### Read
-```
-앱 내에서 template 폴더 생성 후 views.py 파일을 생성한다.  
+```python
+#앱 내에서 template 폴더 생성 후 views.py 파일을 생성한다.  
 
 --- in views.py
 from .models import Blog  
@@ -17,8 +17,8 @@ def home(request):
   blogs = Blog.objects.all() // Blog 내 모든 table 불러오기
   return render(request, 'home.html', {'blogs' : blogs}
 ---
-urls.py에 path 추가하기
-home.html에서 key값 추가하기
+#urls.py에 path 추가하기
+#home.html에서 key값 추가하기
 ---
 {% for blog in blogs %}
   {{blogs}}
