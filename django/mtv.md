@@ -13,15 +13,15 @@ python manage.py runserver
 ```
 ## 2. mtv  
 ### Model / Template / View
-i) Template
++ Template
   + 사용자가 보이는 영역(front end)
   + template 언어  
   
-ii) Model
++ Model
   + 데이터베이스 (DB)  
   
-iii) View
++ View
   + 전달받은 데이터를 처리하는 핵심 부분
  
-iv) 과정  
++ 과정  
  검색창에 '당근' 검색 시 Template에서 입력, View로 '당근'이라는 정보  
