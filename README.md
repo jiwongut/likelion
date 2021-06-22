@@ -14,7 +14,7 @@ classlion 강의
 <details>
     <summary>210428</summary>
     
-    + HTML 
+  + HTML 
         + html 123 
         + form.html  
 </details>
@@ -22,7 +22,7 @@ classlion 강의
 <details>
     <summary>210505</summary>
 
-    + CSS
+  + CSS
         + selector 12345 
         + pseudo 
         + per & box 123
