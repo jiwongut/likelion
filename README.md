@@ -5,17 +5,36 @@ likelion session
 
 classlion 강의 
 ------------ 
-+ 1주차
-  + 웹 기초 - index  
++ 210407
+  + index  
 
-+ 2주차  
-    + HTML - html 123 & form  
++ 210428  
+    + HTML 
+        + html 123 
+        + form.html  
 
-+ 3주차  
-    + CSS - selector 12345 & pseudo & per & box 123  
-+ 4주차   
-    + CSS - property & position 123 & flex 123 & inherit 12 (+ test.css) & btn  
-       python - 4-1.py  
-+ 5주차  
-    + python - 5-1234.py
- 
++ 210505  
+    + CSS
+        + selector 12345 
+        + pseudo 
+        + per & box 123  
++ 210512  
+    + CSS
+        + property
+        + position 123
+        + flex 123 
+        + inherit 12 (+ test.css) 
+        + btn  
+    + python
+        + 4-1.py  
++ 210519 
+    + python
+        + 5-1234.py
++ 210526
+    + mtv
++ 210602
+    + django&DB
+    + CRUD  
++ 210623
+    + static&media
+    + user  
