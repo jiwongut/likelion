@@ -16,8 +16,10 @@ python manage.py runserver
 i) Template
   + 사용자가 보이는 영역(front end)
   + 템플릿 언어  
+  
 ii) Model
   + 데이터베이스 (DB)  
+  
 iii) View
   + 전달받은 데이터를 처리하는 핵심 부분
  
