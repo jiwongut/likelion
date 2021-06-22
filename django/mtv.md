@@ -24,4 +24,4 @@ python manage.py runserver
   + 전달받은 데이터를 처리하는 핵심 부분
  
 + 과정  
- 검색창에 '당근' 검색 시 Template에서 입력, View로 '당근'이라는 정보  
+ 검색창에 '당근' 검색 시 Template에서 입력, View로 '당근'이라는 정보 전달함
