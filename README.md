@@ -49,7 +49,7 @@ classlion 강의
 <details>
     <summary>210526</summary>
 
-  +mtv  
+  + mtv  
 </details>
 <details>
     <summary>210602</summary>
@@ -60,6 +60,6 @@ classlion 강의
 <details>
     <summary>210623</summary>
 
-  +static&media
-  +user
+  + static&media
+  + user
 </details>
