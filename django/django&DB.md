@@ -38,5 +38,10 @@ new_blog.writer = request.POST['writer']
 
 ```
 
-*** get() : 데이터를 얻기 위한 요청, url에 데이터가 보임
-*** post() : 데이터를 생성하기 위한 요청, url에 데이터가 안보임, csrf 공격에 방지
+*** get() : 데이터를 얻기 위한 요청, url에 데이터가 보임  
+*** post() : 데이터를 생성하기 위한 요청, url에 데이터가 안보임, csrf 공격에 방지  
+
+### Update
+```
+
+```
