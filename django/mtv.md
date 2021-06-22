@@ -13,4 +13,11 @@ python manage.py runserver
 ```
 ## 2. mtv  
 ### Model / Template / View
-  
++ Template
+  + 사용자가 보이는 영역(front end)
+  + 템플릿 언어
++ Model
+  + 데이터베이스 (DB)
++ View
+  + 전달받은 데이터를 처리하는 핵심 부분
+ 
