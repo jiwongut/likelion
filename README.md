@@ -40,15 +40,26 @@ classlion 강의
   + python
      + 4-1.py  
 </details>
+<details>
+    <summary>210519</summary>
 
-+ 210519 
-    + python
-        + 5-1234.py
-+ 210526
-    + mtv
-+ 210602
-    + django&DB
-    + CRUD  
-+ 210623
-    + static&media
-    + user  
+  + python
+      + 5-1234.py
+</details>
+<details>
+    <summary>210526</summary>
+
+  +mtv  
+</details>
+<details>
+    <summary>210602</summary>
+
+  + django&DB
+  + CRUD  
+</details>
+<details>
+    <summary>210623</summary>
+
+  +static&media
+  +user
+</details>
