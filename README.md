@@ -23,22 +23,22 @@ classlion 강의
     <summary>210505</summary>
 
   + CSS
-        + selector 12345 
-        + pseudo 
-        + per & box 123
+      + selector 12345 
+      + pseudo 
+      + per & box 123
 </details>
 
 <details>
     <summary>210512</summary>
 
-    + CSS
-        + property
-        + position 123
-        + flex 123 
-        + inherit 12 (+ test.css) 
-        + btn  
-    + python
-        + 4-1.py  
+  + CSS
+     + property
+     + position 123
+     + flex 123 
+     + inherit 12 (+ test.css) 
+     + btn  
+  + python
+     + 4-1.py  
 </details>
 
 + 210519 
