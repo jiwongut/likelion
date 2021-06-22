@@ -1,4 +1,4 @@
-### 장고와 데이터베이스
+# 장고와 데이터베이스
 ------------
 ## ORM (Object Relation Mapping)
 ------------
@@ -6,10 +6,10 @@
 > 장고(django)의 ORM을 이용하여 데이터베이스에서 데이터를 생성(Create)하고, 읽고(Read), 갱신하고(Update), 삭제(Delete)할 수 있다.  
 
 ## CRUD
-# Read
+### Read
 ```
 앱 내에서 template 폴더 생성 후 views.py 파일을 생성한다.
----
+--- in views.py
 from .models import Blog  
 
 def home(request):
@@ -17,4 +17,26 @@ def home(request):
   return render(request, 'home.html', {'blogs' : blogs}
 ---
 urls.py에 path 추가하기
+home.html에서 key값 추가하기
+---
+{% for blog in blogs %}
+  {{blogs}}
+{% end for %}
 ```
+### Create
+```
+new() : new.html을 보여줌  
+create() : 데이터베이스에 저장
+--- in views.py
+def new(request):
+return render(request,'new.html')
+  
+def create(request):
+new_blog = Blog() // 새로운 object 생성
+new_blog.title = request.POST['title']
+new_blog.writer = request.POST['writer']
+
+```
+
+*** get() : 데이터를 얻기 위한 요청, url에 데이터가 보임
+*** post() : 데이터를 생성하기 위한 요청, url에 데이터가 안보임, csrf 공격에 방지
