@@ -11,18 +11,26 @@ classlion 강의
   + index
 </details>
   
-
-+ 210428  
+<details>
+    <summary>210428</summary>
+    
     + HTML 
         + html 123 
         + form.html  
+</details>
 
-+ 210505  
+<details>
+    <summary>210505</summary>
+
     + CSS
         + selector 12345 
         + pseudo 
-        + per & box 123  
-+ 210512  
+        + per & box 123
+</details>
+
+<details>
+    <summary>210512</summary>
+
     + CSS
         + property
         + position 123
@@ -31,6 +39,8 @@ classlion 강의
         + btn  
     + python
         + 4-1.py  
+</details>
+
 + 210519 
     + python
         + 5-1234.py
