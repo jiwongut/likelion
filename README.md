@@ -6,13 +6,13 @@ likelion session
 classlion 강의 
 ------------ 
 <details>
-    <summary>210407</summary>
+    <summary>210407 웹기초</summary>
 
   + index
 </details>
   
 <details>
-    <summary>210428</summary>
+    <summary>210428 HTML</summary>
     
   + HTML
      + html 123 
@@ -20,7 +20,7 @@ classlion 강의
 </details>
 
 <details>
-    <summary>210505</summary>
+    <summary>210505 CSS1</summary>
 
   + CSS
       + selector 12345 
@@ -29,7 +29,7 @@ classlion 강의
 </details>
 
 <details>
-    <summary>210512</summary>
+    <summary>210512 CSS2 + Python1</summary>
 
   + CSS
      + property
@@ -41,24 +41,24 @@ classlion 강의
      + 4-1.py  
 </details>
 <details>
-    <summary>210519</summary>
+    <summary>210519 Python 2&3</summary>
 
   + python
       + 5-1234.py
 </details>
 <details>
-    <summary>210526</summary>
+    <summary>210526 Django1</summary>
 
   + mtv  
 </details>
 <details>
-    <summary>210602</summary>
+    <summary>210602 Django2</summary>
 
   + django&DB
   + CRUD  
 </details>
 <details>
-    <summary>210623</summary>
+    <summary>210623 Django3</summary>
 
   + static&media
   + user
