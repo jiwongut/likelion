@@ -48,12 +48,12 @@ classlion 강의
 </details>
 <details>
     <summary>210526 Django1</summary>
-
+  + djangoproject1 : firstapp, wordCount 만들기
   + mtv  
 </details>
 <details>
     <summary>210602 Django2</summary>
-
+  + djangoproject2 : CRUD 구현, blog 만들기
   + django&DB
   + CRUD  
 </details>
