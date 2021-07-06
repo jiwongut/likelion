@@ -62,6 +62,7 @@ classlion 강의
 <details>
     <summary>210623 Django3</summary>
 
+  + templates
   + static&media
   + user
 </details>
