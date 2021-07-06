@@ -64,5 +64,5 @@ classlion 강의
 
   + templates
   + static&media
-  + user 확장과 인증 
+  + djangoproject2/blogproject/account : user 확장과  
 </details>
