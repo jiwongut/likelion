@@ -63,6 +63,7 @@ classlion 강의
     <summary>210623 Django3</summary>
 
   + templates
-  + static&media
+  + static&media  
+  + forms.py : form  
   + djangoproject2/blogproject/account : user 확장과 인증 
 </details>
