@@ -1,6 +1,8 @@
-<h1>write your daily blog</h1>
+{% block content %}
 
-<form action="{%url 'create'%}" method="post">
+<h1>Login</h1>
+
+<form action="{%url 'login'%}" method="post">
     {%csrf_token%}
     {{form.as_p}}
     <button type="submit">submit</button>
