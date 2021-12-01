@@ -3,6 +3,7 @@
 
 str = "멋쟁이 사자처럼"
 print(str[0]) #index
+print('yes')
 
 #문자열의 길이 len()
 print(len(str))
